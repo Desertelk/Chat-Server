@@ -4,7 +4,7 @@ import threading
 
 # Server connection settings
 HOST = "127.0.0.1"
-PORT = 50501
+PORT = 12345
 
 # Converts python dictionary to JSON and sends it to the server.
 def send_json(message):
@@ -36,7 +36,7 @@ def receive_messages():
             print(f"\nConnected players: {', '.join(message['players'])}")
             print("> ", end="", flush=True)
 
-        # Display server notificatins, such as users leaving.
+        # Display server notifications, such as users leaving.
         elif message["type"] == "SYSTEM":
             print(f"\n{message['message']}")
             print("> ", end="", flush=True)
