@@ -8,7 +8,7 @@ The purpose of this project was to learn more about network programming, TCP soc
 
 ## Software Demo Video
 
-[Software Demonstration Video](PASTE_YOUR_VIDEO_LINK_HERE)
+[Software Demonstration Video](https://youtu.be/4ALw0LdB5lA)
 
 In this video, I demonstrate starting the server, connecting multiple clients, sending messages, listing connected players, and disconnecting users.
 
